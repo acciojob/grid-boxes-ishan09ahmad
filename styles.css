@@ -3,7 +3,7 @@
 {
 	display:grid;
 	grid-template-columns:repeat(4,1fr);
-	grid-template-rows:repeat(5,50px);	
+	grid-template-rows:124px 124px 124px 124px 124px;	
 	gap:8px;
 	
 }
@@ -15,7 +15,7 @@ div{
 }
 .item-1
 {
-	grid-area:1/1/2/5;
+	grid-column:span 4;
 }
 .item-2
 {
